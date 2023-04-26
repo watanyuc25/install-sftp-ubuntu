@@ -20,7 +20,7 @@ echo "ForceCommand internal-sftp" >> /etc/ssh/sshd_config
 #restart service sshd.service
 systemctl restart sshd
 
-#add group for sftp [name = sftp] and u can use other name.
+#add group for sftp [groupname = sftp] and u can use other name.
 addgroup sftp
 
 #add user for sftp and add to sftp group.
